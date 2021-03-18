@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/include/bootstrap.min.css">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="./css/include/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./css/app.min.css">
+  <title>Title</title>
+</head>
+
+<body>
+
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+          <div class="navbar__logo">
+            <img src="./images/dest/logo.png" alt="logo" class="navbar__logo__icon">
+            <h1 class="navbar__logo__title">
+              CoinMarketCal
+            </h1>
+          </div>
+          <div class="navbar__brand__text no-xs">
+            Cryptocurrency calendar<br>
+            Evidence-based & community-driven
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-coins nav__icon"></i>
+                Coin ranking
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-trophy nav__icon"></i>
+                Highlights</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="far fa-newspaper nav__icon"></i>
+                News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-envelope nav__icon"></i>
+                Newsletter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-laptop-code nav__icon"></i>
+                API</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-plus nav__icon"></i>
+                Add event</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="banner__wrapper">
+      <div class="container">
+        <div class="banner__item">
+          <img src="https://via.placeholder.com/1x1" alt="banner" class="banner__img">
+          <button type="button" class="btn btn-primary btn-lg banner__btn">JOIN NOW</button>
+        </div>
+      </div>
+    </div>
+
+    <section class="protocol">
+      <div class="container">
+        <div class="coin-list  count-unique" style="opacity: 1;">
+          <div class="coin-list-item">
+            <div class="vertical-align">
+              <div class="logo-wrapper vertical-align">
+                <div class="icon-md me-2">
+                  <img src="https://d235dzzkn2ryki.cloudfront.net/dsla-protocol_large.png" alt="DSLA Protocol (DSLA)"
+                    class="rounded" height="32" width="32">
+                </div>
+                <span class="name fz-16 ellipsis">DSLA Protocol (DSLA)</span>
+              </div>
+              <span class="price fz-16">
+                <span class="change-dollar">$0.007426 </span>
+                <span class="change-percent">(<span class="coin-change negative ">-13.60
+                    %</span>)</span>
+              </span>
+              <a class="btn btn__outline btn__outline--sm rounded-pill" title="DSLA Protocol (DSLA)"
+                href="/en/coin/dsla-protocol">View
+                coin</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="protocol__date">
+          <h2 class="date-event mb-0 fz-26 mt-3 vertical-align d-inline-block">
+            <strong class="me-2">
+              31 Mar 2021
+            </strong>
+          </h2>
+
+          <a class="protocol__date__icon" href="#" id="dropdownCalendarButton" aria-haspopup="true"
+            aria-expanded="false">
+            <i class="far fa-calendar-plus" data-bs-toggle="tooltip" data-bs-placement="top"
+              title="Подсказка вверху"></i>
+          </a>
+          <a class="protocol__date__icon reminder ml-1" href="#reminderModal" title="DSLA Protocol Mainnet"><i
+              class="far fa-clock" data-bs-toggle="tooltip" data-bs-placement="top" title="Подсказка вверху"></i></a>
+          <a class="protocol__date__icon" href="#alertModal">
+            <i class="far fa-bell" data-bs-toggle="tooltip" data-bs-placement="top" title="Подсказка вверху"></i></a>
+        </div>
+
+
+        <div class="protocol__tablet">
+          <div class="row">
+            <div class="col-12 col-md-7 col-lg-8">
+              <h1 class="card__news__title mt-0 fz-40">
+                DSLA Protocol Mainnet
+                <span>
+                  <i class="fas fa-check-circle fz-26" style="color: rgb(90, 211, 90);" data-bs-toggle="tooltip"
+                    data-bs-placement="top" title="Подсказка вверху"></i>
+                </span>
+                <a href="/en/highlights">
+                  <span>
+                    <i class="fas fa-fire fz-26" style="color: rgb(248, 132, 23);" data-bs-toggle="tooltip"
+                      data-bs-placement="top" title="Подсказка вверху"></i>
+                  </span>
+                </a>
+              </h1>
+              <div class="categories">
+                <a href="/en/?form%5Bcategories%5D%5B%5D=1&amp;form%5Bsubmit%5D="
+                  class="btn btn-primary rounded-pill release"> Release</a>
+              </div>
+
+              <div id="description" class="my-4">
+                "... $DSLA Protocol and the flagship DSLA.network Ðapp will be both available in production on March 31,
+                2021."
+              </div>
+
+              <div class="mt-1">
+                <a class="btn btn--radius btn-outline-primary" href="#">Proof</a>
+                <a class="btn btn--radius btn-outline-primary ms-2 me-2" target="_blank" rel="noopener"
+                  href="#">Source</a>
+                <a class="btn btn--radius btn btn-outline-primary" href="#">Exchanges</a>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-4 mt-4 mt-md-0">
+              <div class="mb-3 p-4 card">
+                <span class="validation-title mb-2 d-block">Validation</span>
+                <div class="row">
+                  <div class="col-6">
+                    <div id="confidence-index" class="p-3">
+                      <div class="validation-label">Confidence</div>
+                      <div class="validation-number count-item text-center">
+                        <strong><span class="count-to" data-countto="90">90</span>%</strong>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div id="vote-number" class="p-3">
+                      <div class="validation-label">Votes</div>
+                      <div class="validation-number count-item text-center"><strong><span class="count-to"
+                            data-countto="1572">1572</span></strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row card__vote-wrapper mt-3 justify-space-between" style="opacity: 1;">
+
+                  <div class="col-6">
+                    <button type="button" class="btn btn-secondary card__btn__like" style="width: 100%;">
+                      <i class="far fa-thumbs-up"></i>
+                      Real
+                    </button>
+                  </div>
+
+                  <div class="col-6">
+                    <button type="button" class="btn btn-secondary card__btn__like" style="width: 100%;">
+                      <i class="far fa-thumbs-down"></i>
+                      Fake
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card p-4">
+                <div class="tip tip--detail">
+                  <i class="fas fa-eye mb-1" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Подсказка вверху"></i>
+                  9190
+                  <p class="added-date">Added 18 Feb 2021</p>
+                  <div class="tip__top"><a class="tip__link" href="mailto:contact@coinmarketcal.com">Featured event</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="protocol__tabs my-5">
+          <nav class="mb-3">
+            <div class="nav nav-tabs protocol__tabs__links" id="nav-tab" role="tablist">
+              <button class="nav-link active protocol__tabs__link" id="nav-home-tab" data-bs-toggle="tab"
+                data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Other
+                upcoming events</button>
+              <div class="protocol__tabs__line"></div>
+              <button class="nav-link protocol__tabs__link" id="nav-profile-tab" data-bs-toggle="tab"
+                data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                aria-selected="false">Other past events</button>
+              <div class="protocol__tabs__line"></div>
+              <button class="nav-link protocol__tabs__link" id="nav-contact-tab" data-bs-toggle="tab"
+                data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                aria-selected="false">Related News</button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <div class="tab-pane list-item active" data-upcoming="0">
+                <ul class="list-unstyled list-card card mb-3">
+
+                  <li class="container-fluid list-unstyled event-list-mode advanced box  px-0 py-3">
+                    <div class="row position-relative vertical-align mx-3">
+                      <div class="col-6 col-sm-5 col-lg-3 p-0 pr-2 px-md-3 vertical-align">
+                        <div class="event-logo-wrapper my-2 me-2 ms-lg-2">
+                          <div class="">
+                            <div class="image">
+                              <img class="lozad rounded" alt="DSLA Protocol (DSLA)" height="32" width="32"
+                                src="https://d235dzzkn2ryki.cloudfront.net/dsla-protocol_normal.png" data-loaded="true">
+                            </div>
+                          </div>
+                        </div>
+                        <a class="link-detail ellipsis" data-html="true" data-toggle="tooltip" data-trigger="hover"
+                          href="#">Avalanche (AVAX) and 1
+                          other </a>
+
+                      </div>
+
+                      <div class="col-6 col-sm-5 col-lg-3 p-0 px-md-3">
+                        <div class="vertical-align">
+                          <h5 class="card__date mt-0 mb-0 ellipsis vertical-align d-inline-block me-1">
+                            <strong class="me-1">
+                              31 Mar 2021
+                            </strong>
+                            (or earlier)
+                          </h5>
+                          <div class="d-none d-xl-block protocol__line__icons">
+                            <a href="#">
+                              <i class="far fa-calendar-plus fz-16" data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Подсказка вверху"></i>
+                            </a>
+
+                            <a class="ms-1" href="#">
+                              <i class="far fa-clock fz-16" data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Подсказка вверху"></i>
+                            </a>
+
+                            <a href="#" class="ms-1">
+                              <i class="far fa-bell fz-16" data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Подсказка вверху"></i></a>
+                          </div>
+                        </div>
+                        <div class="vertical-align">
+                          <div class="mr-1" style="max-width: 75%;">
+                            <h4 class="mt-0 mb-0 ellipsis"><a title="DSLA Protocol Integration"
+                                class="card__news__title" href="/en/event/dsla-protocol-integration-61406">DSLA Protocol
+                                Integration</a>
+                            </h4>
+                          </div>
+
+                          <div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-none d-sm-block d-lg-none col-2 p-0 px-md-3">
+                        <div class="card__vote-wrapper" style="opacity: 1;">
+                          <a class="btn btn-background-g  btn-block vote-button vote-button--list btn-sm"
+                            data-votevalue="1" title="Real" data-eventid="61406"><i class="icon-thumbs-up"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-6 col-sm-5 col-lg-2 vertical-align p-0 px-md-3">
+                        <div class="event-info-number-wrapper validation-number count-item text-right w-xl-58">
+                          <strong>
+                            <span class="count-to progress__percent_number" data-countto="100">100</span>%
+
+                          </strong>
+                        </div>
+                        <div class="ps-2">
+                          <span class="event-info-label">Confidence</span>
+                        </div>
+                      </div>
+                      <div class="col-6 col-sm-5 col-lg-2 vertical-align justify-content-start p-0 px-md-3">
+                        <div class="event-info-number-wrapper validation-number count-item text-right w-xl-55">
+                          <strong>
+                            <span class="count-to progress__votes_number" data-countto="22">22</span>
+
+                          </strong>
+                        </div>
+                        <div class="ps-2">
+                          <span class="event-info-label vote">Votes</span>
+
+                        </div>
+                      </div>
+                      <div class="d-none d-lg-block col-2 p-0 px-md-3" id="box-61406">
+                        <div class="card__vote-wrapper" style="opacity: 1;">
+                          <div class="container-fluid">
+                            <div class="row">
+                              <div class="col-6">
+                                <a class="btn btn-secondary card__btn__like card__btn__like--sm" data-votevalue="1"
+                                  title="Real" data-eventid="61406"><i class="far fa-thumbs-up"></i>
+                                </a>
+                              </div>
+                              <div class="col-6">
+                                <a class="btn btn-secondary card__btn__like card__btn__like--sm" data-votevalue="0"
+                                  title="Fake" data-eventid="61406"><i class="far fa-thumbs-down"></i>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-none d-sm-block d-lg-none col-2 p-0 px-md-3">
+                        <a class="btn btn-secondary card__btn__like btn-sm" data-votevalue="0" title="Fake"
+                          data-eventid="61406"><i class="far fa-thumbs-down"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+
+                </ul>
+                <div class="col text-center"><a class="btn btn-outline-primary btn__outline mt-4 mb-3" data-upcoming="0"
+                    title="Load more">Load more</a></div>
+
+                <div class="col empty-result d-none">
+                  No past event.
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <div class="tab-pane list-item active" id="past-event" data-upcoming="0">
+                <ul class="list-unstyled list-card card mb-3">
+
+                  <li class="container-fluid list-unstyled event-list-mode advanced box  px-0 py-3">
+                    <div class="row position-relative vertical-align mx-3">
+                      <div class="col-6 col-sm-5 col-lg-3 p-0 pr-2 px-md-3 vertical-align">
+                        <div class="event-logo-wrapper my-2 me-2 ms-lg-2">
+                          <div class="">
+                            <div class="image">
+                              <img class="lozad rounded" alt="DSLA Protocol (DSLA)" height="32" width="32"
+                                src="https://d235dzzkn2ryki.cloudfront.net/dsla-protocol_normal.png" data-loaded="true">
+                            </div>
+                          </div>
+                        </div>
+                        <a href="/en/coin/dsla-protocol" class="link-detail ellipsis">DSLA Protocol (DSLA)</a>
+
+                      </div>
+
+                      <div class="col-6 col-sm-5 col-lg-3 p-0 px-md-3">
+                        <div class="vertical-align">
+                          <h5 class="card__date mt-0 mb-0 ellipsis vertical-align d-inline-block">
+                            <strong class="me-1">
+                              05 Feb 2021
+                            </strong>
+                          </h5>
+                          <div class="d-none d-xl-block protocol__line__icons">
+                            <a href="#">
+                              <i class="far fa-calendar-plus fz-16" data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Подсказка вверху"></i>
+                            </a>
+
+                            <a class="ms-1" href="#">
+                              <i class="far fa-clock fz-16" data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Подсказка вверху"></i>
+                            </a>
+
+                            <a href="#" class="ms-1">
+                              <i class="far fa-bell fz-16" data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Подсказка вверху"></i></a>
+                          </div>
+                        </div>
+                        <div class="vertical-align">
+                          <div class="me-1" style="max-width: 75%;">
+                            <h4 class="mt-0 mb-0 ellipsis"><a title="MXC Listing" class="card__news__title"
+                                href="/en/event/mxc-listing-55631">MXC Listing</a>
+                            </h4>
+                          </div>
+
+                          <div>
+                            <a href="/en/highlights">
+                              <span>
+                                <i class="fas fa-check-circle" style="color: rgb(90, 211, 90);" data-bs-toggle="tooltip"
+                                  data-bs-placement="top" title="Подсказка вверху"></i>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-none d-sm-block d-lg-none col-2 p-0 px-md-3">
+                      </div>
+                      <div class="col-6 col-sm-5 col-lg-2 vertical-align p-0 px-md-3">
+                        <div class="event-info-number-wrapper validation-number count-item text-right w-xl-58">
+                          <strong>
+                            <span class="count-to progress__percent_number" data-countto="70">70</span>%
+
+                          </strong>
+                        </div>
+                        <div class="ps-2">
+                          <span class="event-info-label">Confidence</span>
+                        </div>
+                      </div>
+                      <div class="col-6 col-sm-5 col-lg-2 vertical-align justify-content-start p-0 px-md-3">
+                        <div class="event-info-number-wrapper validation-number count-item text-right w-xl-55">
+                          <strong>
+                            <span class="count-to progress__votes_number" data-countto="4">4</span>
+
+                          </strong>
+                        </div>
+                        <div class="ps-2">
+                          <span class="event-info-label vote">Votes</span>
+
+                        </div>
+                      </div>
+                      <div class="d-none d-lg-block col-2 p-0 px-md-3" id="box-55631">
+                        <div class="card__vote-wrapper" style="opacity: 0;">
+                        </div>
+                      </div>
+                      <div class="d-none d-sm-block d-lg-none col-2 p-0 px-md-3">
+                      </div>
+                    </div>
+                  </li>
+
+                </ul>
+                <div class="col text-center"><a class="btn btn-outline-primary btn__outline mt-4 mb-3" data-upcoming="0"
+                    title="Load more">Load more</a></div>
+
+                <div class="col empty-result d-none">
+                  No past event.
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">No related
+              news.</div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+  </main>
+
+  <footer class="footer pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <img alt="CoinMarketCal" style="max-height:30px" class="lozad" src="./images/dest/cmclogofooter.png"
+            data-loaded="true">
+          <p class="about-text">CoinMarketCal is the leading economic calendar for reliable cryptocurrency news. It
+            covers all events that help crypto traders make better decisions.</p>
+          <p class="mt-3 mb-2"><a class="toggle-button">Switch to <span id="mode-label">dark <i
+                  class="ms-1 fas fa-lightbulb"></i></span></a>
+          </p>
+
+          <div class="exchange__select exchange__select--dark header__select my-3">
+
+            <div class="exchange__select__head">
+              <span class="exchange__select__left">
+                <img class="select__lang__icon me-1" src="./images/dest/lang/en.svg" alt="en">
+                English
+              </span>
+
+              <span class="exchange__select__right">
+                <img loading="lazy" src="./images/dest/arrow-down-sign-to-navigate.svg" alt="arrow"
+                  class="exchange__select__arrow">
+              </span>
+
+            </div>
+
+            <div class="exchange__select__body">
+              <div class="exchange__select__list">
+                <div class="exchange__select__item">
+                  <span class="exchange__select__left">
+                    <img class="select__lang__icon me-1" src="./images/dest/lang/en.svg" alt="en">
+                    English
+                  </span>
+
+                  <span class="exchange__select__right">
+                    <img loading="lazy" src="./images/dest/arrow-down-sign-to-navigate.svg" alt="arrow"
+                      class="exchange__select__arrow">
+                  </span>
+                </div>
+
+                <div class="exchange__select__item">
+                  <span class="exchange__select__left">
+                    <img class="select__lang__icon me-1" src="./images/dest/lang/ru.svg" alt="ru">
+                    Русский
+                  </span>
+
+                  <span class="exchange__select__right">
+                    <img loading="lazy" src="./images/dest/arrow-down-sign-to-navigate.svg" alt="arrow"
+                      class="exchange__select__arrow">
+                  </span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <h5 class="mb-3">Our services</h5>
+          <ul class="list-unstyled">
+            <li>
+              <h3 class="simple-text"><a title="Advertise"
+                  href="https://s3-eu-west-1.amazonaws.com/coinmarketcal-share/CMCal+Advertising.pdf" target="_blank"
+                  rel="noopener">Advertise</a></h3>
+            </li>
+            <li>
+              <h3 class="simple-text"><a title="Manage a coin"
+                  href="https://s3-eu-west-1.amazonaws.com/coinmarketcal-share/CMCal+Admin.pdf" target="_blank"
+                  rel="noopener">Manage a coin</a></h3>
+            </li>
+            <li>
+              <h3 class="simple-text"><a title="API" href="/en/api">API</a>
+              </h3>
+            </li>
+            <li>
+              <h3 class="simple-text"><a title="Widget" href="/en/widget">Widget</a>
+              </h3>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <h5 class="mb-3">Follow us</h5>
+          <ul class="list-unstyled">
+            <li>
+              <h3 class="simple-text"><a target="_blank" rel="noopener"
+                  href="https://www.twitter.com/coinmarketcal">Twitter</a></h3>
+            </li>
+            <li>
+              <h3 class="simple-text"><a target="_blank" rel="noopener" href="https://t.me/cmcal_bot">Telegram
+                  bot</a></h3>
+            </li>
+            <li>
+              <h3 class="simple-text"><a target="_blank" rel="noopener" href="https://twitter.com/cmcal_bot">Twitter
+                  bot</a></h3>
+            </li>
+            <li>
+              <h3 class="simple-text"><a target="_blank" rel="noopener"
+                  href="http://newsletter.coinmarketcal.com/">Newsletter</a>
+              </h3>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <div>
+            <h5 class="mb-3">Contact us</h5>
+            <ul class="list-unstyled">
+              <li>
+                <h3 class="simple-text"><a href="#reportModal" data-toggle="modal"
+                    data-target="#reportModal">Report/Update event</a></h3>
+              </li>
+              <li>
+                <h3 class="simple-text"><a title="Report/Update event" href="/en/privacy-policy">Privacy policy</a>
+                </h3>
+              </li>
+              <li>
+                <h3 class="simple-text"><a target="_blank" rel="noopener" title="Terms of service"
+                    href="/en/terms-of-service">Terms of service</a></h3>
+              </li>
+              <li>
+                <h3 class="simple-text"><a target="_blank" rel="noopener" title="API terms of service"
+                    href="/en/api-terms-of-service">API terms of service</a></h3>
+              </li>
+              <li>
+                <h3 class="simple-text"><a href="mailto:contact@coinmarketcal.com">contact@coinmarketcal.com</a>
+                </h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-one-alt">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <span>© 2021 CoinMarketCal </span>
+          </div>
+          <div class="col-sm-6">
+            <span class="fz-11">
+              This site is protected by reCAPTCHA and the Google
+              <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+              <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="./js/include/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="./js/app.min.js"></script>
+</body>
+
+</html>
